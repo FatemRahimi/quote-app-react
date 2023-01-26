@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-       <div className="quote-wrapper">
+      <div className="quote-wrapper">
         {isLoading ? (
           <h2>
             Our lives begin to end the day we become silent about things that
@@ -36,11 +36,11 @@ function App() {
         {isLoading ? <p>Matin Luther King Jr</p> : ""}
         <p>{result.author}</p>
 
-        <div className="btn-container">
-          <button onClick={handleClick}>change quote</button>
-        </div>
+        <div className="btn-container"></div>
       </div>
+      <button onClick={handleClick}>change quote</button>
     </div>
   );
 }
+
 export default App;

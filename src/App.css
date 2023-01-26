@@ -1,0 +1,24 @@
+.App {
+  margin: 7em auto;
+  color: rgb(162, 59, 145);
+  font-family: "Gill Sans", sans-serif;
+}
+
+.quote-wrapper {
+  height: 200px;
+  margin: 0 100px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(187, 7, 7, 0.3);
+  padding: 25px;
+}
+
+button {
+  font-size: medium;
+  background-color: rgb(218, 238, 192);
+  color: rgb(22, 199, 122);
+  border: none;
+  border-radius: 3px;
+  float: right;
+  margin: 30px 100px;
+  padding: 10px 30px;
+}
